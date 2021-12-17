@@ -1,6 +1,12 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000/api/";
+// LOCALHOST
+//
+// const BASE_URL = "http://localhost:5000/api/";
+
+//DEPLOY
+//
+const BASE_URL = "https://qata.herokuapp.com/api/";
 // const TOKEN =
 //   JSON.parse(JSON.parse(localStorage.getItem("persist:root")).user).currentUser
 //     .accessToken || "";
