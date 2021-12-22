@@ -22,6 +22,7 @@ const Login = () => {
         justifyContent: "center",
       }}
     >
+      <h1 style={{ padding: 10, marginBottom: 20 }}>ADMIN LOGIN</h1>
       <input
         style={{ padding: 10, marginBottom: 20 }}
         type="text"
@@ -34,7 +35,10 @@ const Login = () => {
         placeholder="password"
         onChange={(e) => setPassword(e.target.value)}
       />
-      <button onClick={handleClick} style={{ padding: 10, width: 100 }}>
+      <button
+        onClick={handleClick}
+        style={{ padding: 10, width: 100, cursor: "pointer" }}
+      >
         Login
       </button>
     </div>
